@@ -1,1 +1,0 @@
-alert('Hey thanks for checking out my full-stack car website. Make sure to run these files with node.js for the full full-stack experience :)');
