@@ -1,0 +1,8 @@
+{
+  "short_name": "finance App",
+  "name": "Finance tracker app",
+  "icons": [
+  ],
+  "start_url": ".",
+  "display": "standalone"
+}
