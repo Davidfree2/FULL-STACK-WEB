@@ -1,0 +1,149 @@
+*{
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: #FDFFBD;
+    font-family: helvetica;
+}
+
+html body{
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+    margin: auto;
+}
+
+.Nav{
+    background-color: #085899;
+}
+
+.NavContent{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    background-color: #085899;
+}
+
+
+.Nav h1{
+    font-size: 2.1rem;
+    font-weight: bolder;
+    margin: 1rem;
+    background-color: #085899;
+}
+
+.Nav h1 a{
+    background-color: #085899;
+    color: white;
+    text-decoration: none;
+}
+
+.Nav h1 a:hover{
+    background-color: #085899;
+    color: black;
+    text-decoration: none;
+}
+
+.HomePageMain{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 100vh;
+}
+
+.HomePageLeft{
+    margin: auto;
+    height: 50vh;
+    width: 47%;
+}
+
+.HomePageLeft .Title{
+    margin-bottom: 2.4rem;
+    font-size: 1.4rem;
+}
+
+.HomePageLeft .HomePageDescription{
+    margin-bottom: 2.4rem;
+    font-size: 1rem;
+}
+
+.HomePageLeft .HomePageButtons{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.HomePageLeft .HomePageButtons button{
+    padding: 1.2rem;
+    border-radius: 15px;
+    border: solid 1px #007FE6;
+    background-color: #007FE6;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.HomePageLeft .HomePageButtons button:hover{
+    background-color: #E61E17;
+    border: solid #E61E17 1px;
+}
+
+.HomePageRight{
+    width: 45%;
+}
+
+.HomePageRight img{
+    height: 100vh;
+    width: 100%;
+}
+
+.ContactNav{
+    width: 100vw;
+}
+
+.ContactNav form{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.ContactNav input{
+    padding: 1.5rem 8rem 1rem 1rem;
+    border: black 1px solid;
+    border-radius: 3px;
+}
+
+.ContactNav input::placeholder{
+    font-size: 1.6rem;
+    margin: auto;
+    color: grey;
+}
+
+.ContactNav input[type=text]{
+    font-size: 1.6rem;
+    color: black;
+}
+
+.ContactNav button{
+    font-size: 1.6rem;
+}
+
+.Main{
+    width: 100vw;
+}
+
+.MainNav{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.MainContent{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
