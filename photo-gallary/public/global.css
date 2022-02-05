@@ -1,0 +1,14 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Can;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+html body {
+    margin: auto;
+    height: 100vh;
+    width: 100vw;
+}
+
