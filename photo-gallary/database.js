@@ -3,11 +3,11 @@ const { Pool } = require('pg');
 
 //your user authenticaion
 const pool = new Pool({
-    user: 'david',
-    host: '127.0.0.1',
-    database: 'carphotos',
-    password: 'Davidfree22D',
-    port: '5432',
+    user: 'user',
+    host: 'host',
+    database: 'database_name',
+    password: 'your_password',
+    port: 'your_port',
 })
 
 //end connection do database
